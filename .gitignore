@@ -1,8 +1,10 @@
 /bin
+/build
 /src/main/java/com/jack/protobuf/generated/
 .project
 .classpath
 .settings
+.gradle/
 /**/target
 /**/.project
 /**/.classpath
