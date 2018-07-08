@@ -2,6 +2,9 @@ syntax = "proto3";
 
 package com.jack.protobuf;
 
+//option java_package = "com.other.protobuf";
+//option java_outer_classname = "OtherSimplemessage";
+
 message SimpleMessage {
 	int32 id = 1;
 	bool is_simple = 2;
