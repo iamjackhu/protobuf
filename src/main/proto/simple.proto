@@ -5,9 +5,12 @@ option java_package = "com.jack.protobuf.generated";
 
 //option java_outer_classname = "OtherSimplemessage";
 
+import "enum_example.proto";
+
 message SimpleMessage {
 	int32 id = 1;
 	bool is_simple = 2;
 	string name = 3;
 	repeated int32 sample_list = 4;
+	DayOfWeek day_of_week = 5;
 }
