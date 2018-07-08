@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.jack.protobuf;
+option java_package = "com.jack.protobuf.generated";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/duration.proto";
+
+message ComplexMessage {
+   int32 id = 1;
+   oneof example_oneof {
+   	 string my_string = 2;
+   	 bool my_bool = 3;
+   }
+   map<string, int64> result = 4; // map can't be repteated 
+   google.protobuf.Timestamp my_timestamp = 5;
+   google.protobuf.Duration validaty = 6;
+}
