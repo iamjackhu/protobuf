@@ -4,6 +4,10 @@ package com.jack.protobuf;
 option java_package = "com.jack.protobuf.generated";
 
 //option java_outer_classname = "OtherSimplemessage";
+//option cc_enable_arenas = true;
+//option go_package = "github.com/golang/protobuf/ptypes/duration";
+//option java_multiple_files = true;
+
 
 import "enum_example.proto";
 
