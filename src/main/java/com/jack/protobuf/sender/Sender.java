@@ -1,6 +1,6 @@
 package com.jack.protobuf.sender;
 
-import com.jack.protobuf.Simple.SimpleMessage;
+import com.jack.protobuf.generated.Simple.SimpleMessage;
 
 public class Sender {
 

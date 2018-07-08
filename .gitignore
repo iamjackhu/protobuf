@@ -1,4 +1,5 @@
 /bin
+/src/main/java/com/jack/protobuf/generated/
 .project
 .classpath
 .settings

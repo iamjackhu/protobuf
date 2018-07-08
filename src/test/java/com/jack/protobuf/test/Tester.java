@@ -4,9 +4,9 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.jack.protobuf.EnumExample.DayOfWeek;
-import com.jack.protobuf.EnumExample.EnumMessage;
-import com.jack.protobuf.Simple.SimpleMessage;
+import com.jack.protobuf.generated.EnumExample.DayOfWeek;
+import com.jack.protobuf.generated.EnumExample.EnumMessage;
+import com.jack.protobuf.generated.Simple.SimpleMessage;
 
 public class Tester {
 	
