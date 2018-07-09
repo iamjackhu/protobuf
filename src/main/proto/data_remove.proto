@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.jack.protobuf;
+option java_package = "com.jack.protobuf.generated";
+
+message EvolutionMessage {
+	int32 id = 1;
+	// string first_name = 2;
+	reserved 2;
+	reserved "first_name";
+}

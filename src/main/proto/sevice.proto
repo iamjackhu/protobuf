@@ -4,7 +4,8 @@ package com.jack.protobuf;
 option java_package = "com.jack.protobuf.generated";
 
 import "simple.proto";
-import "complex.proto"; 
+import "complex.proto";
+import "enum_example.proto"; 
 
 service MessageService {
 	rpc requestMessage(SimpleMessage) returns (ComplexMessage);
